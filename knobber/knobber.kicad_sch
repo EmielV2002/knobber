@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Knobber")
-		(date "2026-03-14")
+		(date "2026-03-16")
 		(rev "V0.1")
 		(company "Author: Emiel V")
 	)
@@ -824,7 +824,7 @@
 			)
 		)
 		(pin "ENC_MISO" output
-			(at 153.67 39.37 0)
+			(at 153.67 36.83 0)
 			(uuid "a3076d56-5353-4e81-9104-ebc3bd51f41e")
 			(effects
 				(font
@@ -851,6 +851,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ENC__PUSH" output
+			(at 153.67 39.37 0)
+			(uuid "c1e663e2-d527-4237-85c1-554a8a5aa27d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

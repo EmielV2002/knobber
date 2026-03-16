@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "LCD")
-		(date "2026-03-14")
+		(date "2026-03-16")
 		(rev "V0.1")
 		(company "Author: Emiel V")
 	)
@@ -651,6 +651,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "LCD display connector"
+		(exclude_from_sim no)
+		(at 85.09 43.18 0)
+		(size 46.99 44.45)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.25)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8ecd21ef-2b06-4a3a-b643-3b8aeceaee9b")
+	)
 	(wire
 		(pts
 			(xy 105.41 59.69) (xy 119.38 59.69)
@@ -970,7 +992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x08_Socket"
+		(property "Value" "LCD"
 			(at 125.73 69.8499 0)
 			(effects
 				(font
